@@ -6,7 +6,6 @@ must use three functions
 calculateBill()
 increasePeople()
 decreasePeople()
-
 */
 
 // need ids for bill input, tip input, number of people, and per person total div
@@ -46,6 +45,7 @@ const decreasePeople = () => {
     if (numberOfPeople <= 1){
         return 
     }
+    
     numberOfPeople = numberOfPeople - 1
 
     numberOfPeopleDiv.innerText = numberOfPeople
